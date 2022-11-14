@@ -27,6 +27,7 @@ namespace MenuStrip
             t.Text = names.ToString();
             names++;
             r = t;
+            r.MouseEnter += toolStripMenuItem1_MouseEnter;
             t = new ToolStripMenuItem();
         }
     }
